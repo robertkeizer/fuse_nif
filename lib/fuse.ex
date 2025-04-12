@@ -4,4 +4,5 @@ defmodule FuseNif.Fuse do
     crate: :fusenif_fuse
 
   def add(_a, _b), do: :erlang.nif_error(:nif_not_loaded)
+  def version_test(), do: :erlang.nif_error(:nif_not_loaded)
 end

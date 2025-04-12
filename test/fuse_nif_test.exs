@@ -9,4 +9,8 @@ defmodule FuseNifTest do
   test "basic add" do
     assert FuseNif.Fuse.add( 1, 2) == 3
   end
+
+  test "fuse version can be grabbed" do
+    assert FuseNif.Fuse.version_test() == 26
+  end
 end
