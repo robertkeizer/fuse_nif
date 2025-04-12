@@ -1,6 +1,10 @@
 # FuseNif
 
-**TODO: Add description**
+This is an [elixir](https://elixir-lang.org/) package that exposes [FUSE](https://en.wikipedia.org/wiki/Filesystem_in_Userspace) (targetting version 2.6) by way of a [NIF](https://www.erlang.org/doc/system/nif.html).
+
+It under active development, and is primarily developed for [OpenBSD](https://www.openbsd.org/).
+
+If you would prefer a [port](https://www.erlang.org/doc/system/c_port.html), see [efuse](https://hex.pm/packages/efuse).
 
 ## Installation
 
