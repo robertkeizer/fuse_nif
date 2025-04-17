@@ -6,6 +6,10 @@ defmodule FuseNif.MixProject do
       app: :fuse_nif,
       version: "0.1.0",
       elixir: "~> 1.17",
+      compilers: [:nifs] ++ Mix.compilers(),
+      nifs: [
+        "c_src/fuse_nif.c"
+      ],
       start_permanent: Mix.env() == :prod,
       deps: deps()
     ]

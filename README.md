@@ -5,3 +5,7 @@ Primarily development and testing happens on [OpenBSD](https://www.openbsd.org/)
 
 ## ⚠️ Active development
 This project under active development and has not been released. 
+
+
+
+`cc -fPIC -shared -o fuse_nif.o c_src/fuse_nif.c -I /usr/local/lib/erlang25/usr/include`
